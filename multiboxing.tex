@@ -141,14 +141,16 @@ Multiboxing without a client manager.
         this is a tool to throttle the fps of inactive clients on windows. While windows dose this automatically for minimized clients, if you
         just swap windows it doesn't always happen. This tool also lets you specify the fps of inactive clients. A guide to stetting it up
         for EVE can be found \href{https://www.youtube.com/watch?v=R7YdEPDD_08}{here}.
-  \item \href{https://github.com/kshannoninnes/CopyEveLayoutTool}{CopyEveLayoutTool} [Test this, make sure it still works] \\
+  \item \href{https://github.com/kshannoninnes/CopyEveLayoutTool}{CopyEveLayoutTool} \\
         \href{https://forums.eveonline.com/t/manually-copy-settings-between-characters-and-accounts/32704}{Instructions to do it manually} \\
         Linux/Steam file location: \lstinline{~/.local/share/Steam/steamapps/compatdata/8500/pfx/drive_c/users/steamuser/AppData/Local/CCP/EVE} \\
 \end{itemize}
 
 \clearpage
 \subsection{EVE-O Preview Setup}
-example window layout \\
+One of the most important things in multi-boxing is a proper window layout. If you don't want to use eve-o, you can find a good example of how to stack
+windows \href{https://www.youtube.com/watch?v=xpiYxq3mpD8}{here}, but this guide assumes you are using eve-o.
+\\
 recomended settings \\
 video of someone using it for 2 clients \\
 video of someone using it for 20 clients \\
@@ -751,7 +753,8 @@ activities. Ishtar spinning, PI, and mining are all popular options for this, th
 
 
 
-\section*{Appendix A: Videos}
+\section*{Appendix A: Links}
+\subsection*{Videos}
 These are the videos that are linked throughout this guide as well as some that may be helpful but I had no where else to put
 \begin{itemize}
   \item \href{https://www.youtube.com/watch?v=dKbQezW0ZwU}{Optomizing for multibox preformance}
@@ -762,6 +765,22 @@ These are the videos that are linked throughout this guide as well as some that 
   \item \href{https://www.youtube.com/watch?v=p5WXd2IkaOc}{Multiboxing 2x nano}
 \end{itemize}
 
+\subsection*{Tools}
+This is a list of all tools linked throughout this guide.
+\begin{itemize}
+  \item \href{https://evemondevteam.github.io/evemon/}{EVE Mon}
+  \item \href{https://github.com/Proopai/eve-o-preview}{EVE-O Preview}
+  \item \href{https://isboxer.com/}{ISBoxer}
+  \item \href{https://www.guru3d.com/download/rtss-rivatuner-statistics-server-download}{GURU3D RTSS}
+  \item \href{https://github.com/kshannoninnes/CopyEveLayoutTool}{CopyEveLayoutTool}
+\end{itemize}
+
+\subsection*{Other Links}
+\begin{itemize}
+  \item \href{https://forums.eveonline.com/t/manually-copy-settings-between-characters-and-accounts/32704}{Manually coppying window layout}
+  \item \href{https://www.eveonline.com/signup?invc=79ffb3de-ef43-400b-a568-e45ac72c6715}{Refer a friend link}
+\end{itemize}
+
 \section*{Appendix B: Linux}
 This is not a guide to running EVE on steam. This is less a guide and more the steps I followed getting my personal setup working. Said setup is 
 Ubuntu 22.04 LTS running EVE though Steam Proton. If this is not your exact setup, may Linus Torvalds have mercy on your soul.
@@ -770,7 +789,28 @@ Ubuntu 22.04 LTS running EVE though Steam Proton. If this is not your exact setu
 Tool for frame limiting stuff on Linux: \href{https://github.com/flightlessmango/MangoHud}{MangoHud}
 
 \subsection*{EVE-O Install Guide}
-[This is a bit involved so is defiantly warranted]
+Documenting my decent into madness
+\begin{itemize}
+  \item Install wine and winetricks \lstinline{sudo apt install wine} dose not work, it gets an older version of wine that is incompatible with .NET 4.8
+  \begin{itemize}
+    \item \lstinline{sudo dpkg --add-architecture i386}
+    \item \lstinline{sudo mkdir -pm755 /etc/apt/keyrings}
+    \item \lstinline{sudo wget -O /etc/apt/keyrings/winehq-archive.key https://dl.winehq.org/wine-builds/winehq.key}
+    \item \lstinline{sudo wget -nc -P /etc/apt/sources.list.d/ https://dl.winehq.org/wine-builds/ubuntu/dists/jammy/winehq-jammy.sources}
+    \item \lstinline{sudo apt install --install-recommends winehq-stable}
+    \item \lstinline{sudo apt-get install wine winetricks} default wine prefix -> install a windows DLL or component -> dotnet48
+  \end{itemize}
+  \item Install .NET 8 via winetricks \lstinline{winetricks --force dotnet48} ignore the error as the issue was fixed. This may take a bit and require
+  clicking though multiple popups.
+  \item Install wmctrl \lstinline{sudo apt-get install wmctrl}
+\end{itemize}
+
+for dotnet8 need to first winetricks --self-update to get newer version
+
+install protontricks via pipx
+install steam via apt
+protontricks 8500 --force dotnet48
+protontricks-launch --appid 8500 eve-o.exe
 
 \section*{Appendix C: Mac}
 I've never run EVE on a Mac, if you have any insights to share please reach out.
@@ -784,12 +824,16 @@ Other skill plans that are useful for alts:
 \subsection*{Logi}
 \subsection*{Dred}
 
-
-%\subsection*{Acknowledgments}
-%Ackbad Pappotte ie me.\\
-%The fine folks of Noir. for catching many typos.
+\clearpage
+\subsection*{Acknowledgments}
+Ackbad Pappotte\\
+The fine folks of Noir. for catching my many typos.\\
+\\
+\\
+Want to contribute? Contact Ackbad Pappote in-game or raise an issue on the \href{https://github.com/AckbadP/eve-multi-guide}{GitHub}.  
 
 %\subsection*{Changelog}
+
 
 
 \clearpage

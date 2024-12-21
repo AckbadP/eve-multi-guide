@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1733123957.04435 "/home/ian/dev/eve/multiboxGuide/multiboxing.tex" "multiboxing.pdf" "multiboxing" 1733123957.74363 0
-  "/home/ian/dev/eve/multiboxGuide/multiboxing.tex" 1733123956.87619 26073 e084ee5926dec342577ef4d838c25497 ""
+["pdflatex"] 1734764355.66523 "/home/ian/dev/eve/multiboxGuide/multiboxing.tex" "multiboxing.pdf" "multiboxing" 1734764356.25587 0
+  "/home/ian/dev/eve/multiboxGuide/multiboxing.tex" 1734764355.50094 28454 c4e68ac2e6cfdd0984bad84d54bba226 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -9,6 +9,7 @@
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/courier/pcrro7t.tfm" 1136768653 1116 3b5422ca7b3feeb8bd20316af67485c1 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/courier/pcrro8r.tfm" 1136768653 1544 4fb84cf2931ec523c2c6a08d939088ba ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
+  "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1136768653 1524 4414a8315f39513458b80dfc63bff03a ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm" 1136768653 1512 f21f83efb36853c0b70002322c1ab3ad ""
@@ -22,6 +23,7 @@
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm" 1136768653 1124 6c73e740cf17375f03eec0ee63599741 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm" 1136768653 1116 933a60c408fc0a863a92debe84b2d294 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm" 1136768653 1120 8b7d695260f3cff42e636090a8002094 ""
+  "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1248133631 34811 78b52f49e893bcba91bd7581cdc144c0 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1248133631 32080 340ef9bf63678554ee606688e7b5339d ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1248133631 32722 d7379af29a190c3f453aba36302ff5a9 ""
@@ -167,9 +169,9 @@
   "images/client_massicure.jpg" 1732707411.30391 179493 0e12315bd5bf13969ce55aafd1327607 ""
   "images/example_layout.jpg" 1732706840.37985 1447781 8f8c2cfbacee76be74af3eeb4e4208f0 ""
   "images/multiboxing_without_tools.jpeg" 1732707154.02824 17579 61379123c6b63727fc7cef76312c5d24 ""
-  "multiboxing.aux" 1733123957.6842 2017 04898f51bb546fbf3c8267fac3d84451 "pdflatex"
-  "multiboxing.out" 1733123957.6852 1882 237e06452637ae44e748f8b6a2283b9c "pdflatex"
-  "multiboxing.tex" 1733123956.87619 26073 e084ee5926dec342577ef4d838c25497 ""
+  "multiboxing.aux" 1734764356.20293 2017 adc134a07a07b3febe49d67d0a6429c7 "pdflatex"
+  "multiboxing.out" 1734764356.20293 1882 237e06452637ae44e748f8b6a2283b9c "pdflatex"
+  "multiboxing.tex" 1734764355.50094 28454 c4e68ac2e6cfdd0984bad84d54bba226 ""
   (generated)
   "multiboxing.aux"
   "multiboxing.log"
