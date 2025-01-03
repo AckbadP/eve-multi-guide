@@ -159,7 +159,7 @@ video of someone using it for 20 clients \\
 \clearpage
 \subsection{Hotkeys}
 
-If you want to run more then maybe 2 clients you need to setup and learn to use hotkeys as it allows you
+If you want to run more then maybe 2 clients you need to setup and learn to use hotkeys as it allows you 
 to minimize mouse movement. Particularly if you're running more then 2-3 clients, often you'll be using your
 mouse to switch clients so you'll need to use hotkeys so that you don't need to move your mouse across the
 screen and back every time you swap to a client to do some input like activating your guns.
@@ -782,35 +782,26 @@ This is a list of all tools linked throughout this guide.
 \end{itemize}
 
 \section*{Appendix B: Linux}
-This is not a guide to running EVE on steam. This is less a guide and more the steps I followed getting my personal setup working. Said setup is 
-Ubuntu 22.04 LTS running EVE though Steam Proton. If this is not your exact setup, may Linus Torvalds have mercy on your soul.
-\\
-\\
-Tool for frame limiting stuff on Linux: \href{https://github.com/flightlessmango/MangoHud}{MangoHud}
+\href{https://www.reddit.com/r/Eve/comments/1hqjm4a/linux_lutris_eve_online_eveo_preview/}{Linux Install Guide (Lutris)}\\
+As of now there is no known way to run EVE-O and EVE through steam at the same time as proton will only let you run one program 
+at a time in a prefix.
 
-\subsection*{EVE-O Install Guide}
-Documenting my decent into madness
-\begin{itemize}
-  \item Install wine and winetricks \lstinline{sudo apt install wine} dose not work, it gets an older version of wine that is incompatible with .NET 4.8
-  \begin{itemize}
-    \item \lstinline{sudo dpkg --add-architecture i386}
-    \item \lstinline{sudo mkdir -pm755 /etc/apt/keyrings}
-    \item \lstinline{sudo wget -O /etc/apt/keyrings/winehq-archive.key https://dl.winehq.org/wine-builds/winehq.key}
-    \item \lstinline{sudo wget -nc -P /etc/apt/sources.list.d/ https://dl.winehq.org/wine-builds/ubuntu/dists/jammy/winehq-jammy.sources}
-    \item \lstinline{sudo apt install --install-recommends winehq-stable}
-    \item \lstinline{sudo apt-get install wine winetricks} default wine prefix -> install a windows DLL or component -> dotnet48
-  \end{itemize}
-  \item Install .NET 8 via winetricks \lstinline{winetricks --force dotnet48} ignore the error as the issue was fixed. This may take a bit and require
-  clicking though multiple popups.
-  \item Install wmctrl \lstinline{sudo apt-get install wmctrl}
-\end{itemize}
+% TODO: transcribe the setup guide here, and get the new script link when it's moved to github
+% TODO: include bash script to launch EVE-O preview that can be added to the prefix
 
-for dotnet8 need to first winetricks --self-update to get newer version
 
-install protontricks via pipx
-install steam via apt
-protontricks 8500 --force dotnet48
-protontricks-launch --appid 8500 eve-o.exe
+%\subsection*{EVE-O Install Guide}
+%\href{https://www.reddit.com/r/Eve/comments/1hqjm4a/linux_lutris_eve_online_eveo_preview/}{install guide}
+%The above link describes the process, but I'll write out the basic process here as well in case it doesn't work.
+%\begin{enumerate}
+%  \item Install \href{https://lutris.net/}{Lutris}
+%  \item Install EVE via the script \href{https://www.reddit.com/r/Eve/comments/1hqjm4a/linux_lutris_eve_online_eveo_preview/}{linked here} or do the following: \\
+%    \begin{enumerate}
+%      \item Install the Dec. 2023 release of the \href{https://lutris.net/games/eve-online/}{EVE Launcher}
+%      \item 
+%    \end{enumerate}
+%  \item 
+%\end{enumerate}
 
 \section*{Appendix C: Mac}
 I've never run EVE on a Mac, if you have any insights to share please reach out.
@@ -828,10 +819,12 @@ Other skill plans that are useful for alts:
 \subsection*{Acknowledgments}
 Ackbad Pappotte\\
 The fine folks of Noir. for catching my many typos.\\
+Dal, for helping me troubleshoot EVE-O on the \href{https://discord.gg/xYt8R9AFXB}{discord}. \\
+Krombopulous Nathan, for showing up with a lutris install scrip out of nowhere. \\
 \\
 \\
-Want to contribute? Contact Ackbad Pappote in-game or raise an issue on the \href{https://github.com/AckbadP/eve-multi-guide}{GitHub}.  
-
+Want to contribute? Contact Ackbad Pappotte in-game or raise an issue on the \href{https://github.com/AckbadP/eve-multi-guide}{GitHub}.  
+\\
 %\subsection*{Changelog}
 
 
