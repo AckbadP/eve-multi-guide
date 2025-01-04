@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1735952795.53646 "/home/ian/dev/eve-multi-guide/multiboxing.tex" "multiboxing.pdf" "multiboxing" 1735952797.77108 0
+["pdflatex"] 1735954891.89106 "/home/ian/dev/eve-multi-guide/multiboxing.tex" "multiboxing.pdf" "multiboxing" 1735954894.35832 0
   "/etc/texmf/web2c/texmf.cnf" 1735938657.31731 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/ian/dev/eve-multi-guide/multiboxing.tex" 1735952795.36098 29601 3774cfd3a428a762f234f7e566a4258d ""
+  "/home/ian/dev/eve-multi-guide/multiboxing.tex" 1735954891.70193 31519 cb6e0e9f08cfff6ec3b3bebe1b83c072 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/courier/pcrr7t.tfm" 1136768653 960 379cc0019370a9e0208a0a3f949f847a ""
@@ -168,10 +168,12 @@
   "images/2_clients_top.png" 1735951449.08548 3887602 56ec0fb1aba356f6967940aaa5807331 ""
   "images/client_massicure.jpg" 1735938280.83076 179493 0e12315bd5bf13969ce55aafd1327607 ""
   "images/example_layout.jpg" 1735938280.84076 1447781 8f8c2cfbacee76be74af3eeb4e4208f0 ""
+  "images/launcher_group_page.png" 1735954474.19352 44475 fd7bfea7222c02eeceba23a5cf984944 ""
   "images/multiboxing_without_tools.jpeg" 1735938280.84076 17579 61379123c6b63727fc7cef76312c5d24 ""
-  "multiboxing.aux" 1735952797.71497 2066 ad49e1bfda4af15d3ccd55177546ac59 "pdflatex"
-  "multiboxing.out" 1735952797.71597 1882 237e06452637ae44e748f8b6a2283b9c "pdflatex"
-  "multiboxing.tex" 1735952795.36098 29601 3774cfd3a428a762f234f7e566a4258d ""
+  "images/profile_location.png" 1735954091.34729 428278 70e449addcf58df32465be112dc0428e ""
+  "multiboxing.aux" 1735954894.29496 2170 c408c06d544f3023ba16c6eaa2ed096f "pdflatex"
+  "multiboxing.out" 1735954894.29496 2001 e59993421a760d14a89c9d6e1c144a18 "pdflatex"
+  "multiboxing.tex" 1735954891.70193 31519 cb6e0e9f08cfff6ec3b3bebe1b83c072 ""
   (generated)
   "multiboxing.aux"
   "multiboxing.log"
