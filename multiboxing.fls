@@ -292,6 +292,14 @@ INPUT ./images/example_layout.jpg
 INPUT ./images/example_layout.jpg
 INPUT ./images/example_layout.jpg
 INPUT ./images/example_layout.jpg
+INPUT ./images/2_clients_side.png
+INPUT ./images/2_clients_side.png
+INPUT ./images/2_clients_side.png
+INPUT ./images/2_clients_side.png
+INPUT ./images/2_clients_top.png
+INPUT ./images/2_clients_top.png
+INPUT ./images/2_clients_top.png
+INPUT ./images/2_clients_top.png
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsl10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsl12.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/courier/pcrro7t.tfm

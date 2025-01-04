@@ -197,14 +197,27 @@ This setup runs into issues with ships like nestors or curses where you can easi
 
 \clearpage
 \subsection{Window Layout}
-I'll expand this subsection with example layouts and the logic behind them if there's demand, but tl;dr this guide assumes all eve 
-clients are run on a single window, and for this you need a consistent in-game window layout so things like your watchlist location 
-and selected item window are in consistent locations as you swap between clients. 
+
+Here are two example layouts for eve-o windows. There are many other ways of doing it but these two are the most common and simple.
 \\
+\begin{center}
+  \makebox[\linewidth]{\includegraphics[width=\linewidth]{2_clients_side.png}}
+  Clients at the top.
+\end{center}
+This is the most common setup you'll see in videos and for good reason. It is taking advantage of the usually empty space at the top 
+of the game client to position the windows. This space is almost always empty (unless you put the capacitor at the top), and is within 
+easy reach of the mouse if you prefer to switch clients that way, being a similar distance from the center of the screen as other EVE 
+UI elements. While the clients in this image are relatively large, it's not unreasonable to put 10 or more windows in that area if you 
+re-size them properly, as in such cases the windows are less a button to click and more an indicator of which client is active. 
 
-
-[Add example layout and an explanation]
-
+\begin{center}
+  \makebox[\linewidth]{\includegraphics[width=\linewidth]{2_clients_top.png}}
+  Clients at the top.
+\end{center}
+This is an alternative setup that I used for many years. Personally I found it better for differentiating at a glance which window is 
+which client, but it dose put the windows a bit further out of reach. It dose however ave the advantage of keeping the top left portion 
+of the client clear of eve-o character selection window previews, as they will default to that location whenever you open a new client, 
+which can block the neocom menu, search bar, and any other elements you keep at the top left corner of the client.
 \clearpage
 \subsection{Profiles}
 This is a tool built into the EVE client to manage multiple characters at once. It lets you do things like choose a window layout to launch,
@@ -779,6 +792,7 @@ This is a list of all tools linked throughout this guide.
 \begin{itemize}
   \item \href{https://forums.eveonline.com/t/manually-copy-settings-between-characters-and-accounts/32704}{Manually coppying window layout}
   \item \href{https://www.eveonline.com/signup?invc=79ffb3de-ef43-400b-a568-e45ac72c6715}{Refer a friend link}
+  \item \href{https://gist.github.com/arillat/2b7e519a69268f519d507d0ed50b9713}{Git repo on running EVE on Arch}
 \end{itemize}
 
 \section*{Appendix B: Linux}

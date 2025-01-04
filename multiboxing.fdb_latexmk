@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1735946459.06467 "/home/ian/dev/eve-multi-guide/multiboxing.tex" "multiboxing.pdf" "multiboxing" 1735946459.66236 0
+["pdflatex"] 1735952187.33217 "/home/ian/dev/eve-multi-guide/multiboxing.tex" "multiboxing.pdf" "multiboxing" 1735952189.79464 0
   "/etc/texmf/web2c/texmf.cnf" 1735938657.31731 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/ian/dev/eve-multi-guide/multiboxing.tex" 1735946458.89788 28086 5be78f0e6dcb92e4106b00796cfa45d9 ""
+  "/home/ian/dev/eve-multi-guide/multiboxing.tex" 1735952186.59235 29393 67b9cad7bc83eac9f81413f1817820ff ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/courier/pcrr7t.tfm" 1136768653 960 379cc0019370a9e0208a0a3f949f847a ""
@@ -164,12 +164,14 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1735939534.92743 5472669 54eaf61a88b6b7896ebd0dac973cb29c ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1735939550 8213630 cda2577bbc7258c7d5bd54a1683c1ce6 ""
+  "images/2_clients_side.png" 1735951641.61683 3916758 af90dfba3633bc670596cbde20255b58 ""
+  "images/2_clients_top.png" 1735951449.08548 3887602 56ec0fb1aba356f6967940aaa5807331 ""
   "images/client_massicure.jpg" 1735938280.83076 179493 0e12315bd5bf13969ce55aafd1327607 ""
   "images/example_layout.jpg" 1735938280.84076 1447781 8f8c2cfbacee76be74af3eeb4e4208f0 ""
   "images/multiboxing_without_tools.jpeg" 1735938280.84076 17579 61379123c6b63727fc7cef76312c5d24 ""
-  "multiboxing.aux" 1735946459.61087 2017 b3033246c7a067018f6efd3364081331 "pdflatex"
-  "multiboxing.out" 1735946459.61187 1882 237e06452637ae44e748f8b6a2283b9c "pdflatex"
-  "multiboxing.tex" 1735946458.89788 28086 5be78f0e6dcb92e4106b00796cfa45d9 ""
+  "multiboxing.aux" 1735952189.73134 2018 fd20995500eeb4e81a224fe11db9d2da "pdflatex"
+  "multiboxing.out" 1735952189.73134 1882 237e06452637ae44e748f8b6a2283b9c "pdflatex"
+  "multiboxing.tex" 1735952186.59235 29393 67b9cad7bc83eac9f81413f1817820ff ""
   (generated)
   "multiboxing.aux"
   "multiboxing.log"
