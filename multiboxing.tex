@@ -151,9 +151,24 @@ Multiboxing without a client manager.
 One of the most important things in multi-boxing is a proper window layout. If you don't want to use eve-o, you can find a good example of how to stack
 windows \href{https://www.youtube.com/watch?v=xpiYxq3mpD8}{here}, but this guide assumes you are using eve-o.
 \\
-recommended settings \\
-video of someone using it for 2 clients \\
-video of someone using it for 20 clients \\
+Here is a list of settings I recommend enabling, if I don't mention it I recommend having it disabled:
+\begin{itemize}
+  \item Track client locations - A no-brainer, it ensure a consistent window layout between play secessions.
+  \item Minimize inactive EVE clients - It helps reduce the resource requirements of any client you're not actively looking at.
+  \item Previews always on top - If you plan to stack windows above your EVE client this is necessary
+  \item Show Overlay - Shows client names. Not necessary but nice if you don't have your layout memorized
+  \item Highlight active client - Key if you're running many clients, it help you know which one's up at a glance.
+\end{itemize}
+
+There are also several setting you should absolutely set that require you to modify the config.json file EVE-O uses. The main two are hotkeys 
+for each client and a cycle group. These are one of the largest draws of using EVE-O as it lets you swap clients without the mouse, something 
+crucial if you want to multibox in anger. If you open the config.json file (located in the same directory as the EVE-O.exe) you will see examples 
+you can copy for your own settings. If you are unsure of the window/character name EVE-O is expecting simply log into the character with EVE-O 
+running and it will generate a settings block at the bottom of the json that includes the window name, location, size, etc. you can copy from. 
+Personally I like assigning specific clients to keys 1-0 and the cycle button to mouse button 6, but this isn't always ideal. Keep in mind that 
+EVE-O will eat any input that swaps clients, so if you assign a client a hotkey you won't be able to for example type with that key while EVE-O is 
+running. If you are unsure on how to set any of these settings, the \href{URLhttps://github.com/Proopai/eve-o-preview}{EVE-O github} goes into 
+greater detail on how to set them.
 
 
 \clearpage
@@ -256,7 +271,7 @@ There is also \href{https://github.com/FontaineRiant/EANM}{EANM}, a settings man
         but the MOTD can also be used to save things like a shared overview that is even accessible if you swap computers.
   \item Bright overview colors. If you want to use the mini client windows provided by EVE-O as eyes, it helps to set all pilots to a default
         bright color so they are more visible in the shrunken down window. Personally I use a solid yellow background for all characters that
-        have no standing so neutrals are more easily visible.
+        have no standing so neutrals are more easily visible but still stand out among reds and blues.
   \item When fleet-warping alts around, you can queue up jumping though the gate mid-warp. Just initiate the fleet warp then for every client
         press jump in the selected item window mid-warp and they will all jump on contact with the gate.
 \end{itemize}
